@@ -2,18 +2,48 @@
 <html>
 <head>
     <title>Product Page</title>
+    <style>
+        body { margin:0; font-family: Arial; }
+        header {
+            background:black;
+            color:white;
+            padding:10px;
+            text-align:center;
+        }
+        .container { display:flex; }
+        .sidebar {
+            width:200px;
+            background:lightgray;
+            padding:15px;
+        }
+        .content { padding:20px; }
+    </style>
 </head>
 <body>
 
-    <h1>My Product</h1>
+<header>
+    <h2>My Shopping Site</h2>
+</header>
 
-    <img src="shopping.webp" width="200">
+<div class="container">
 
-    <h2>Product Name: Smart Watch</h2>
+    <div class="sidebar">
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+    </div>
 
-    
+    <div class="content">
+        <img src="shopping.webp" width="200">
 
-    <h3>Price: ₹1999</h3>
+        <h2>Product Name: Smart Watch</h2>
+
+        <!-- Description removed -->
+
+        <h3>Price: ₹1999</h3>
+    </div>
+
+</div>
 
 </body>
 </html>
